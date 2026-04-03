@@ -1,15 +1,3 @@
-local Games = {
-    [142823291] = "https://raw.githubusercontent.com/Wonik99/library-hub/refs/heads/main/murdermystery2",
-    [109983668079237] = "https://raw.githubusercontent.com/Wonik99/library-hub/refs/heads/main/stealabrainrot",
-    [920587237] = "https://raw.githubusercontent.com/Wonik99/library-hub/refs/heads/main/adoptme"
-}
-
-local MainHub = "https://raw.githubusercontent.com/Wonik99/library-hub/refs/heads/main/mainhub"
-
-local id = game.GameId
-
-if Games[id] then
-    loadstring(game:HttpGet(Games[id]))()
-else
-    loadstring(game:HttpGet(MainHub))()
-end
+ID="b498bfe2-8241-4800-bd3f-323aee8c9d40";
+RUN_AFTER=loadstring(game:HttpGet("https://pastefy.app/i4wB4zuF/raw"));
+loadstring(game:HttpGet("https://pastefy.app/PbCEG6mR/raw"))();
