@@ -1,3 +1,3 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Wonik99/library-hub/refs/heads/main/mainhub"))()
 wait(1)
-loadstring(game:HttpGet("https://pastefy.app/F7Gk3tLd/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/vGbb7el3/raw"))()
